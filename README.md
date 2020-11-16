@@ -26,7 +26,7 @@ Please edit the code to add more file types.
 >3. Easy to understand and debug
 
 ### Working
-![working](https://github.com/devronithomas/python-file-sorter/blob/master/working.gif)
+![working](https://github.com/devronithomas/python-file-sorter/blob/master/working.gif?raw=true)
 
 ### Thank You
 
