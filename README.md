@@ -26,7 +26,7 @@ Please edit the code to add more file types.
 >3. Easy to understand and debug
 
 ### Working
-![working](working.mp4)
+![working](working.gif)
 
 ### Thank You
 
