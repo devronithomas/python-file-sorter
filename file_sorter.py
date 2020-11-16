@@ -15,6 +15,8 @@ def mv_file(file_name):
         dir_name = "Compressed"
     elif file_name == aud:
         dir_name = "Audio"
+    elif file_name == vid:
+        dir_name = "Video"
 
     try:
         os.mkdir(root + f"/{dir_name}")
@@ -62,6 +64,11 @@ if len(os.listdir(sort_dir)) > 0:
             mv_file(comprs)
         elif files.endswith(aud):
             mv_file(aud)
+        elif files.endswith(vid):
+            mv_file(vid)
+        else:
+            print(f"Unsupported file extension {files.split('.')[1]}")
+            
     print("All files are sorted")
 else:
     print ("No Files to Sort")
